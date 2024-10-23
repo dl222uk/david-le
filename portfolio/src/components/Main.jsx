@@ -52,15 +52,20 @@ const Main = () => {
            </div> 
         </section>
         <div className="flex flex-col justify-center items-center mt-24">
-          <section className="skills" title="skills-section">
-            <h2 className="text-4xl font-bold">Skills</h2>
-            <div className="flex flex-row items-center mt-20">
+          <section className="skills text-center" title="skills-section">
+            <h2 className="text-4xl font-bold items-center">Skills</h2>
             <PageIcons/>
-            
-              
-            </div>
           </section>
          </div>
+
+          <section className="work" title="work-section">
+          <div className="flex flex-col justify-center items-center">
+
+
+          
+          </div> 
+          </section>
+
         </div>
        </div> 
     );
