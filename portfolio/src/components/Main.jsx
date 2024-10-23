@@ -6,9 +6,10 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import foodImage from "../assets/food.png";
 import PageIcons from "./Page-icons";
 import KoreaUniversity from "../assets/Koreauniversity.png";
-import work from "../assets/Work-sign.jpeg";
 
-
+import workInProgress from "../assets/work.png";
+import portfolio from "../assets/portfoliopicture.png";
+import gettyImages from "../assets/gettyImages.jpg";
 const Main = () => {
   return (
     <div>
@@ -129,7 +130,7 @@ const Main = () => {
               <div className="container mx-auto mt-44 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 md:space-x-12 max-w-6xl">
                 {/* Image section on the left */}
                 <div className="md:w-1/3">
-                  <img className="object-contain w-full h-auto max-w-xs rounded-lg" src={KoreaUniversity} alt="New Project" />
+                  <img className="object-contain w-full h-auto max-w-xs rounded-lg" src={gettyImages} alt="New Project" />
                 </div>
 
                 {/* Text section on the right */}
@@ -154,7 +155,7 @@ const Main = () => {
 
                    {/* Image section on the right */}
                    <div className="md:w-1/3">
-                  <img className="object-contain w-full h-auto max-w-xs rounded-lg" src={work} alt="Work" />
+                  <img className="object-contain w-full h-auto max-w-xs rounded-lg" src={workInProgress} alt="Work" />
                 </div>
               </div>
 

@@ -45,6 +45,7 @@ const PageIcons = () => {
         <p>VS Code</p>
         <p>IntelliJ</p>
         <p>Git/Github</p>
+        <p>Tableau</p>
         </div>
         </div>
     );
