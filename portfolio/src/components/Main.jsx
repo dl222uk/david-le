@@ -7,8 +7,7 @@ import foodImage from "../assets/food.png";
 import PageIcons from "./Page-icons";
 import KoreaUniversity from "../assets/Koreauniversity.png";
 import work from "../assets/Work-sign.jpeg";
-// Import your new project image
-// import NewProjectImage from "../assets/new_project_image.png"; // Replace with the actual image
+
 
 const Main = () => {
   return (
@@ -66,7 +65,7 @@ const Main = () => {
 
         {/* Work Experience Section */}
         <div className="mt-60">
-          <section className="work-experience">
+          <section className="work-experience" title="work-section">
             <h2 className="text-6xl font-bold text-blue-500 mx-60">Work Experience</h2>
             <div className="mx-12">
               <div className="timeline mt-12 w-full flex justify-between relative">
@@ -105,7 +104,7 @@ const Main = () => {
 
           {/* Portfolio Section */}
           <div className="mt-60">
-            <section className="portfolio mt-24">
+            <section className="portfolio mt-24" title="portfolio-section">
               <h1 className="text-6xl font-bold text-blue-500 text-center">Portfolio</h1>
 
               {/* Korea Project */}
