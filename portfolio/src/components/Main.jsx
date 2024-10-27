@@ -9,9 +9,9 @@ import KoreaUniversity from "../assets/Koreauniversity.png";
 import workInProgress from "../assets/work.png";
 import portfolio from "../assets/portfoliopicture.png";
 import gettyImages from "../assets/gettyImages.jpg";
-
-
-
+import CSharp from "../assets/CSharp.svg";
+import Java from "../assets/Java.svg";
+import HTML5 from "../assets/html5.svg";
 const Main = () => {
   return (
     <div>
@@ -65,6 +65,18 @@ const Main = () => {
             <PageIcons />
           </section>
         </div>
+
+        {/* Programming Languages Section */}
+       <div className="overflow-hidden flex items-center justify-center w-full mt-60">
+          <div className="flex animate-scroll space-x-8">
+            <img src={CSharp} className="w-20 h-20"></img>
+            <img src={Java} className="w-20 h-20"></img>
+            <img src={HTML5} className="w-20 h-20"></img>
+          </div>
+
+       </div>
+
+
 
         {/* Work Experience Section */}
         <div className="mt-60">
