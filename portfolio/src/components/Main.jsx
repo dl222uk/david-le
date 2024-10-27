@@ -6,10 +6,12 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import foodImage from "../assets/food.png";
 import PageIcons from "./Page-icons";
 import KoreaUniversity from "../assets/Koreauniversity.png";
-
 import workInProgress from "../assets/work.png";
 import portfolio from "../assets/portfoliopicture.png";
 import gettyImages from "../assets/gettyImages.jpg";
+
+
+
 const Main = () => {
   return (
     <div>
@@ -43,7 +45,7 @@ const Main = () => {
 
       {/* About Section */}
       <div className="mt-20">
-        <section className="about" title="about-section">
+        <section id ="about" className="about" title="about-section">
           <div className="flex flex-col justify-center items-center">
             <h2 className="text-4xl font-bold">About Me</h2>
             <div className="flex flex-row items-center mt-4">
@@ -66,7 +68,7 @@ const Main = () => {
 
         {/* Work Experience Section */}
         <div className="mt-60">
-          <section className="work-experience" title="work-section">
+          <section id="work" className="work-experience" title="work-section">
             <h2 className="text-6xl font-bold text-blue-500 mx-60">Work Experience</h2>
             <div className="mx-12">
               <div className="timeline mt-12 w-full flex justify-between relative">
@@ -105,7 +107,7 @@ const Main = () => {
 
           {/* Portfolio Section */}
           <div className="mt-60">
-            <section className="portfolio mt-24" title="portfolio-section">
+            <section id="portfolio" className="portfolio mt-24" title="portfolio-section">
               <h1 className="text-6xl font-bold text-blue-500 text-center">Portfolio</h1>
 
               {/* Korea Project */}
